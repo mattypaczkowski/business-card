@@ -9,4 +9,67 @@ html {
 body {
   height: 100vh;
   background-image: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  min-height: 100vh;
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+
+}
+
+ .card {
+   background-color: #f8f8f8;
+   border-radius: 16px;
+   max-width: 624px;
+   width: 100%;
+   padding: 32px;
+ }
+
+ .person {
+  display: flex;
+  align-items: flex-start;
+ }
+
+ .person__photo {
+   margin-right: 32px;
+   border-radius: 48px;
+ }
+
+ .person__name {
+  margin: 0;
+  font-weight: normal;
+  font-size: 36px;
+ }
+
+ .person__position{
+   color: #545454;
+   font-style: italic;
+   font-size: 18px;
+   margin-bottom: 0px;
+ }
+
+ .person__header {
+   margin-bottom: 32px;
+ }
+
+ .person__description{
+   font-size: 16px;
+   margin: 0;
+   line-height: 20px;
+ }
+
+ .person__special{
+   font-weight: normal;
+   color: #52AA5E;
+
+ }
+
+ .person__link{
+   color: #663300;
+   text-decoration: none;
+ }
+
+ .person__about{
+   margin: 24px 0 0 0;
  }
