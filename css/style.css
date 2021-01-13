@@ -18,7 +18,7 @@ body {
   background: linear-gradient(to right, #2c3e50, #2980b9);
 
   min-height: 100vh;
-  padding: 16px;
+  margin: 16px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -57,7 +57,7 @@ body {
 }
 
 .person__header {
-  margin-bottom: 32px;
+  margin-bottom: 24px;
 }
 
 .person__description {
@@ -66,19 +66,13 @@ body {
   line-height: 20px;
 }
 
-.person__special {
-  font-weight: normal;
-  color: #52aa5e;
-}
-
 .person__about {
-  margin-top: 20px;
+  margin-top: 24px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .icon {
   height: 36px;
   width: 36px;
-  margin: 0 16px;
 }
