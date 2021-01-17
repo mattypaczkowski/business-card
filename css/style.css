@@ -23,6 +23,8 @@ body {
   align-items: center;
   justify-content: center;
   font-family: Arial, Helvetica, sans-serif;
+
+
 }
 
 .card {
@@ -31,6 +33,7 @@ body {
   max-width: 624px;
   width: 100%;
   padding: 32px;
+  margin: 16px;
 }
 
 .person {
@@ -75,4 +78,17 @@ body {
 .icon {
   height: 36px;
   width: 36px;
+}
+
+@media (max-width: 460px) {
+  .person {
+      flex-direction: column;
+      flex-wrap: wrap;
+      align-items: center;
+      text-align: center;
+  }
+  .person__photo {
+    margin: 0;
+  }
+
 }
